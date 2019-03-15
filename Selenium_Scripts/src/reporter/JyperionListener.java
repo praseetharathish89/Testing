@@ -87,7 +87,7 @@ public class JyperionListener implements ITestListener {
 			cell.setBackgroundColor(Color.LIGHT_GRAY);
 			this.successTable.addCell(cell);
 		}
-		
+		//added code
 		PdfPCell cell = new PdfPCell(new Paragraph(result.getTestClass().toString()));
 		this.successTable.addCell(cell);
 		cell = new PdfPCell(new Paragraph(result.getMethod().getMethodName().toString()));
