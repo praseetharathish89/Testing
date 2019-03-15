@@ -13,7 +13,7 @@ public class AutoIT {
 		System.setProperty("webdriver.chrome.driver","P:\\Hybrid\\Selenium_Scripts\\drivers\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		
-		
+		//Praveen Raja Sir
 		 driver.get("http://softwaretestingplace.blogspot.com/2015/10/sample-web-page-to-test.html");			
 		 WebElement browse =driver.findElement(By.id("uploadfile"));
 		 //pass the path of the file to be uploaded using Sendkeys method
